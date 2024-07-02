@@ -119,7 +119,7 @@ def solution(order):
     return answer
 ```
 ### 결과
-![1차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/1.png)  
+![1차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/1.PNG)  
 
 
 ## 2차
@@ -162,7 +162,7 @@ def solution(order):
     return answer
 ```
 ### 결과
-![2차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/2.png)  
+![2차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/2.PNG)  
 > origin 리스트를 삭제 하면서 1차 답안보다 시간이 많이 줄었네요. 더 큰 시간 차이를 보이고 있는 것은 order의 길이가 많이 긴 것이지 않을까 생각합니다. 오예!
 
 ## 3차 
@@ -195,7 +195,7 @@ def solution(order):
     return idx
 ```
 ### 결과
-![3차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/3.png)  
+![3차 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/3.PNG)  
 > 역시 변수 하나로는 큰 시간적 차이를 보이지 않네요. 오히려 시간이 쪼오금 길어졌는데 이건 왜 때문일까요?ㅋㅋㅋ 
 
 ## 최종 
@@ -260,7 +260,7 @@ def solution(order):
     return idx
 ```
 ### 결과
-![최종 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/8.png)  
+![최종 결과](../assets/img/2024-07-02-codingTest_programmers_택배상자/8.PNG)  
 > 전반적으로 시간이 줄어든 것을 볼 수 있습니다. 성공적. 
 
 오늘은 프로그래머스 택배상자 문제를 풀어봤습니다.
