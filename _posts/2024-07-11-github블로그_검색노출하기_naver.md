@@ -1,62 +1,62 @@
 ---
-title: "Github 블로그 Google 검색 엔진에 노출하기"
-date: 2024-07-01 10:35:39 +0900
+title: "Github 블로그 Naver 검색 엔진에 노출하기"
+date: 2024-07-11 09:36:56 +0900
 categories: [Github Blog, Jekyll]
-tags: [github, jekyll, blog, google, search, Google Search Console]
+tags: [github, jekyll, blog, naver, search, Naver Search Advisor]
 author: jaehee-kim24
 toc: ture
 ---
 >안녕하세요 재히입니다 o((>ω< ))o  
-[Jekyll Chirpy 테마 Github 블로그 꾸미기](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%BE%B8%EB%AF%B8%EA%B8%B0/)까지 잘 따라오신 분들! 나만의 블로그를 빨리 세상에 내놓고 싶진 않으신가요?  
-그치만 아직까지 검색을 아무리 해도 내 블로그가 나오지 않을거에요. 이번 포스팅에서는 검색 엔진에 노출시키는 방법을 알아보겠습니다. 어서 우리의 블로그를 자랑해보자구요🚀
+[Github 블로그 Google 검색 엔진에 노출하기](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%BE%B8%EB%AF%B8%EA%B8%B0/)를 앞서서 진행했는데, 생각보다 시간이 많이 걸리네요😂 그래서 기다리는 동안, 국내 포털 사이트인 Naver에도 등록해보려고 합니다. 여기저기 우리의 블로그를 자랑해보자구요🚀
 
 연관 포스팅  
 - [Jekyll Chirpy 테마 Github 블로그 개설하기(2024.06 기준)-1](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4%ED%95%98%EA%B8%B0_1/)  
 - [Jekyll Chirpy 테마 Github 블로그 개설하기(2024.06 기준)-2](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%B0%9C%EC%84%A4%ED%95%98%EA%B8%B0_2/)
 - [Jekyll Chirpy 테마 Github 블로그 꾸미기](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%BE%B8%EB%AF%B8%EA%B8%B0/)
+- [Github 블로그 Google 검색 엔진에 노출하기](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%BE%B8%EB%AF%B8%EA%B8%B0/)
   
 
-# Google Search Console
-먼저, Google Search Console에 블로그를 등록해야 합니다. 이 도구는 Google이 내 블로그를 어떻게 인식하고 있는지 확인할 수 있게 해줘요.
+# Naver Search Advisor
+구글 엔진에 등록했던 것처럼 이번에는 [Naver Search Advisor](https://searchadvisor.naver.com/)에 우리의 블로그를 등록해 보겠습니다.
 
-## 1. Google Search Console에 블로그 등록하기
-### Google Search Console 접속
-[Google Search Console](https://search.google.com/search-console/about)로 이동해요.  
-다들 Google 아이디로 로그인 해주시고 시작하기를 눌러봅시다.
-![시작하기 버튼 클릭](../assets/img/2024-07-01-github블로그_검색노출하기/1.png)  
->  시작하기 버튼 클릭
+## 1. Naver Search Advisor에 블로그 등록하기
+### Naver Search Advisor 접속
+[Naver Search Advisor](https://searchadvisor.naver.com/)로 이동해요.  
+우선 Naver 아이디로 로그인을 먼저 해주세요.  
 
-### 속성 추가
-![URL 설정](../assets/img/2024-07-01-github블로그_검색노출하기/2.png)  
->  URL 입력후 계속 버튼 클릭
+![로그인](../assets/img/2024-07-11-github블로그_검색노출하기_naver/1.png)  
+>  동의 후 로그인
+
+### 웹마스터 도구 사용하기
+메인 페이지에서 조금 스크롤을 내려보시면 웹마스터 도구 사용하기라는 버튼이 있어요. 우리가 한 번 사용해보자구요!
+
+![웹마스터 도구 사용하기](../assets/img/2024-07-11-github블로그_검색노출하기_naver/2.png)  
+>  웹마스터 도구 사용하기 버튼 클릭
+
+### 사이트 등록
+![사이트 등록](../assets/img/2024-07-11-github블로그_검색노출하기_naver/3.png)  
+>  우리의 블로그 주소 적고 시작!
 
 ### 소유권 확인
-위에서 URL 입력하고 계속 한다면, 잠시 기다리면 아래와 같은 화면이 나옵니다. 
-![소유권 확인](../assets/img/2024-07-01-github블로그_검색노출하기/3.png)  
-> 소유권 확인 방법
-
-- HTML 파일 추가
-- HTML 태그 추가
-- Google 애널리틱스
-- Google 태그 관리자
-- 도메인 이름 공급업체
-  
-위 방법들로 소유권을 확인 할 수 있습니다. 그 중 저는 **HTML 태그 추가**를 사용할거에요. Jekyll 블로그에는 HTML 파일 추가의 방법으로는 적용이 어려울 수 있습니다.
+위에서 URL 입력하면 소유권 확인 절차를 거쳐야합니다. 구글 서치 콘솔에서 한 것 처럼 이번에도 HTML 태그를 사용해 소유 확인을 해볼게요.  
 
 #### HTML 태그
-![HTML 태그](../assets/img/2024-07-01-github블로그_검색노출하기/4.png)  
-> 다른 방법 확인 -> HTML 태그 -> 복사  
+HTML태그를 선택하고 content에 있는 내용을 복사할게요. 저는 0으로 시작해 7로 끝나는 저 문자열을 복사!
+
+![HTML 태그로 소유 확인](../assets/img/2024-07-11-github블로그_검색노출하기_naver/4.png)   
+> content 뒤 문자열 복사 
 
 아직까지는 확인 버튼 누르면 안돼요!! 적용이 되지 않았기 때문에 에러가 날거에요. 아래 내용부터 따라해주세요.
 
 #### _config.yml에 content 붙여넣기
 복사한 내용을 보면 저 같은 경우  
-`<meta name="google-site-verification" content="blahblah" />`  
-이렇게 나옵니다. `blahblah` 부분을 _config.yml에 붙여 넣을거에요.
-![_config.yml 편집](../assets/img/2024-07-01-github블로그_검색노출하기/5.png)  
-> webmaster_verifications: 아래의 google에 `blahblah` 붙여넣기
+`<meta name="naver-site-verification" content="0~~817" />`  
+이렇게 나옵니다. `0~~817` 부분을 _config.yml에 붙여 넣을거에요. chirpy 기본에는 naver가 있지 않아서 추가해주고 content 값을 넣을게요.
+![_config.yml 편집](../assets/img/2024-07-11-github블로그_검색노출하기_naver/5.png)    
+> webmaster_verifications: 아래의 naver에 `0~~817` 붙여넣기
 
 #### Commit & Push & Build & Deploy
+이제 _config.yml 업데이트 된 부분을 배포 작업을 해야해요.  
 지금까지 따라오신 분들은 커밋과 푸시, 빌드와 디플로이가 익숙하실텐데요. 혹시 못보신 분들은 [yml 파일 commit과 push](https://jaehee-kim24.github.io/posts/github%EB%B8%94%EB%A1%9C%EA%B7%B8_%EA%BE%B8%EB%AF%B8%EA%B8%B0/#yml-%ED%8C%8C%EC%9D%BC-commit%EA%B3%BC-push) 부분을 참고 해주세요.  
 
 #### 배포 완료 후 확인
